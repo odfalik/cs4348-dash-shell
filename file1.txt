@@ -1,0 +1,15 @@
+batchtest1
+cmds.txt
+dash
+dash.c
+file1.txt
+file2.txt
+file3.txt
+file4.txt
+hello.txt
+mybin
+output.ext
+ps.out
+strace
+test1.dash
+testcases.txt

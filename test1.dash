@@ -1,0 +1,4 @@
+cd ..
+ls -alphs > test1.out1
+ps > test1.out2
+who -THu

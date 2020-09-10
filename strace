@@ -1,0 +1,91 @@
+hello
+/home/012/o/ox/oxf170130/cs4348/p1
+total 704
+-rw------x 1 oxf170130 sn    79 Feb  6 19:25 batchtest1
+-rw------x 1 oxf170130 sn   339 Feb  4 22:24 cmds.txt
+-rwx--x--x 1 oxf170130 sn 14000 Feb  7 20:31 dash
+-rw------- 1 oxf170130 sn  7121 Feb  7 20:35 dash.c
+-rw------- 1 oxf170130 sn   138 Feb  7 20:38 file1.txt
+-rw------- 1 oxf170130 sn   221 Feb  7 20:38 file2.txt
+-rw------- 1 oxf170130 sn    35 Feb  7 20:38 file3.txt
+-rw------- 1 oxf170130 sn     6 Feb  7 20:38 file4.txt
+-rw------- 1 oxf170130 sn     6 Feb  7 20:38 hello.txt
+drwx--x--x 2 oxf170130 sn    20 Feb  2 22:16 mybin
+-rw------- 1 oxf170130 sn     3 Feb  7 20:38 output.ext
+-rw------- 1 oxf170130 sn   113 Feb  7 20:31 ps.out
+-rw------- 1 oxf170130 sn    41 Feb  7 20:40 strace
+-rw------- 1 oxf170130 sn    54 Feb  5 15:29 test1.dash
+-rw------x 1 oxf170130 sn   907 Feb  2 19:05 testcases.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+oxf1701+  7317  0.0  0.0   7192   808 pts/4    S+   20:39   0:00 strace ./dash cmds.txt
+oxf1701+  7319  0.0  0.0   4356   536 pts/4    S+   20:39   0:00 ./dash cmds.txt
+oxf1701+  8708  0.0  0.0 154024  1820 pts/4    R+   20:40   0:00 ps -u
+oxf1701+ 12343  0.0  0.0 115312  3396 pts/4    Ss   20:28   0:00 -bash
+batchtest1
+cmds.txt
+dash
+dash.c
+file1.txt
+file2.txt
+file3.txt
+file4.txt
+hello.txt
+mybin
+output.ext
+ps.out
+strace
+test1.dash
+testcases.txt
+  PID TTY          TIME CMD
+ 7317 pts/4    00:00:00 strace
+ 7319 pts/4    00:00:00 dash
+ 8728 pts/4    00:00:00 ps
+ 8729 pts/4    00:00:00 cat <defunct>
+12343 pts/4    00:00:00 bash
+/home/012/o/ox/oxf170130/cs4348/p1
+hello
+total 680
+-rw------x 1 oxf170130 sn    79 Feb  6 19:25 batchtest1
+-rw------x 1 oxf170130 sn   339 Feb  4 22:24 cmds.txt
+-rwx--x--x 1 oxf170130 sn 14000 Feb  7 20:31 dash
+-rw------- 1 oxf170130 sn  7121 Feb  7 20:35 dash.c
+-rw------- 1 oxf170130 sn   138 Feb  7 20:38 file1.txt
+-rw------- 1 oxf170130 sn   221 Feb  7 20:38 file2.txt
+-rw------- 1 oxf170130 sn    35 Feb  7 20:38 file3.txt
+-rw------- 1 oxf170130 sn     6 Feb  7 20:38 file4.txt
+-rw------- 1 oxf170130 sn     0 Feb  7 20:40 hello.txt
+drwx--x--x 2 oxf170130 sn    20 Feb  2 22:16 mybin
+-rw------- 1 oxf170130 sn     3 Feb  7 20:38 output.ext
+-rw------- 1 oxf170130 sn   113 Feb  7 20:31 ps.out
+-rw------- 1 oxf170130 sn  1609 Feb  7 20:40 strace
+-rw------- 1 oxf170130 sn    54 Feb  5 15:29 test1.dash
+-rw------x 1 oxf170130 sn   907 Feb  2 19:05 testcases.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+oxf1701+  7317  0.0  0.0   7192   808 pts/4    S+   20:39   0:00 strace ./dash cmds.txt
+oxf1701+  7319  0.0  0.0   4356   544 pts/4    S+   20:39   0:00 ./dash cmds.txt
+oxf1701+  8747  0.0  0.0 154024  1820 pts/4    R+   20:40   0:00 ps -u
+oxf1701+  8748  0.0  0.0 107956   356 pts/4    S+   20:40   0:00 sleep 4
+oxf1701+  8750  0.0  0.0      0     0 pts/4    Z+   20:40   0:00 [pwd] <defunct>
+oxf1701+  8751  0.0  0.0      0     0 pts/4    Z+   20:40   0:00 [echo] <defunct>
+oxf1701+ 12343  0.0  0.0 115312  3396 pts/4    Ss   20:28   0:00 -bash
+hello world
+batchtest1
+cmds.txt
+dash
+dash.c
+file1.txt
+file2.txt
+file3.txt
+file4.txt
+hello.txt
+mybin
+output.ext
+ps.out
+strace
+test1.dash
+testcases.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+oxf1701+  7317  0.0  0.0   7192   808 pts/4    S+   20:39   0:00 strace ./dash cmds.txt
+oxf1701+  7319  0.0  0.0   4356   552 pts/4    S+   20:39   0:00 ./dash cmds.txt
+oxf1701+ 12343  0.0  0.0 115312  3396 pts/4    Ss   20:28   0:00 -bash
+oxf1701+ 13774  0.0  0.0 154024  1824 pts/4    R+   20:40   0:00 ps -u

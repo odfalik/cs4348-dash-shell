@@ -1,0 +1,14 @@
+echo hello
+pwd
+ls -l & ps -u
+ls & ps & cat filename.ext
+ls -l & cat hello.txt & ps -u & pwd & echo hello > hello.txt
+ls > file1.txt & ps > file2.txt & pwd > file3.txt & echo hello > file4.txt
+ls > output.ext
+path /usr /usr/bin
+cd ../dir_name
+echo hello world
+ls & ps -u
+cat filename.ext
+echo hi > output.ext
+exit

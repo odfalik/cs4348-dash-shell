@@ -1,0 +1,6 @@
+  PID TTY          TIME CMD
+12343 pts/4    00:00:00 bash
+28977 pts/4    00:00:00 dash
+29041 pts/4    00:00:00 ps
+29042 pts/4    00:00:00 pwd <defunct>
+29043 pts/4    00:00:00 echo <defunct>
